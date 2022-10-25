@@ -10,6 +10,7 @@ import static java.lang.Thread.sleep;
 public class lcwSenaryo {
     protected WebDriver driver;
     public static String loginUrl = "https://www.lcwaikiki.com/tr-TR/TR";
+    public static String controlUrl = "https://www.lcwaikiki.com/tr-TR/TR";
 
     @Before
     public void setUp() {
@@ -34,6 +35,7 @@ public class lcwSenaryo {
         try {
 
             driver.get(loginUrl);
+            assertEquals(loginUrl, controlUrl);
 
             driver.findElement(By.xpath("/html/body/div[3]/div/div[1]/div/div[1]/div/div[1]/div/div[1]")).click();
             sleep(3000);
@@ -76,6 +78,10 @@ public class lcwSenaryo {
             e.printStackTrace();
         }
     }
+
+    private void assertEquals(String loginUrl, String controlUrl) {
+    }
+
     @After
     public void tearDown() throws Exception {
 
