@@ -6,4 +6,5 @@ Rastgele bir kategori seçilir ve rastgele bir ürün seçilir
 Gelen ürün sayfasından beden seçimi yapılır ve ürün sepete eklenir
 Sepet sayfasına gidilir
 Tekrar ana sayfaya dönerek test bitirilir.</h5>
+<p>asdasd</p>
 
