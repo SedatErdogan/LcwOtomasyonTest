@@ -2,4 +2,4 @@
 
 <h1>Test Adımları</h1>
 <h2>LCW Web Sitesine Girilir</h2>
-<h2>Test Adımları</h2>
+<h5>Test Adımları</h5>
